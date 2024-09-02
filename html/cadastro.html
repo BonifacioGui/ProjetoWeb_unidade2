@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Academia IFPE Maromba</h1>
+        <nav>
+            <ul>
+                <li><a href="/html/index.html">Início</a></li>
+                <li><a href="/html/servicos.html">Serviços</a></li>
+                <li><a href="/html/agendamento.html">Agendamento</a></li>
+                <li><a href="/html/blog.html">Blog</a></li>
+                <li><a href="/html/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="auth-container">
+            <a href="/html/cadastro.html" class="btn btn-auth">Cadastro</a>
+            <a href="/html/login.html" class="btn btn-auth">Login</a>
+        </div>
+    </header>
+    <section class="banner-cadastro">
+        <div class="form-container">
+            <h2 class="cad">Cadastro</h2>
+            <form id="cadastro-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                <p class="error" id="nomeError"></p>
+                
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" required>
+                <p class="error" id="sobrenomeError"></p>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                <p class="error" id="emailError"></p>
+                
+                <label for="telefone">Número de Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+                <p class="error" id="telefoneError"></p>
+                
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" placeholder="Digite sua idade" required>
+                <p class="error" id="idadeError"></p>
+                
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                <p class="error" id="senhaError"></p>
+                
+                <label for="confirme-senha">Confirme a Senha:</label>
+                <input type="password" id="confirme-senha" name="confirme-senha" placeholder="Confirme sua senha" required>
+                <p class="error" id="confirmeSenhaError"></p>
+                
+                <button type="submit">Cadastrar</button>
+                <p class="error" id="form-error"></p>
+                <p class="success" id="form-success" style="display: none;">Cadastro realizado com sucesso!</p>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        &copy; 2024 Academia IFPE Maromba. Todos os direitos reservados.
+    </footer>
+    <script src="/javaScript/cadastro.js"></script>
+</body>
+</html>
