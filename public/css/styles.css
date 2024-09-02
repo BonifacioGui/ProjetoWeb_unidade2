@@ -1,0 +1,637 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    
+  }
+  .titulo{
+    margin-left: 40px;
+  }
+
+  header {
+    background-color: black;
+    border: 1px solid black;
+    box-shadow: 0 0 10px black;
+    color: #fff;
+    padding: 20px;
+    font-weight: bold;
+    position: relative;
+}
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .banner-index {
+    background-image: url('/images/banner.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ff6600;
+    font-weight: bold;
+  }
+  
+  .btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .servicos {
+    padding: 20px;
+  }
+  
+  .agendamento {
+    padding: 20px;
+  }
+  
+  .blog {
+    padding: 20px;
+  }
+  
+  .contato {
+    padding: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  
+  .blog{
+    background-image: url('/images/academia.jpg');
+    background-size: cover;
+    color: white;
+    height: 152vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: orange;
+    text-shadow: 0 0 10px black;
+  }
+  article{
+    width: auto;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px orange; 
+    margin-bottom: 30px;
+    padding: 60px;
+  }
+  article h3 {
+    color: white;
+    font-size: 24px; 
+    margin-bottom: 10px;
+    font-style: italic;
+    text-decoration: underline;
+  }
+  
+  article h4 {
+    color: orange;
+    font-size: 18px; 
+    margin-bottom: 10px;
+  }
+  
+  .banner {
+    background-image: url('https://img.freepik.com/fotos-gratis/vista-de-angulo-baixo-do-homem-de-construcao-muscular-irreconhecivel-se-preparando-para-levantar-uma-barra-em-um-clube-de-saude_637285-2497.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .servicos {
+    padding: 20px;
+  }
+  
+  .agendamento {
+    background-image: url('https://getwallpapers.com/wallpaper/full/9/6/6/200294.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .blog {
+    padding: 20px;
+  }
+  
+  .contato {
+    background-image: url('https://img.freepik.com/free-photo/gray-painted-background_53876-94041.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .tabs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tablink {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .tabcontent {
+    display: none;
+  }
+  
+  .sublinks {
+    display: none;
+  }
+  
+  .subcontent {
+    display: none;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  #menu {
+    display: none;
+  }
+  
+  #menu-toggle:checked + #menu {
+    display: block;
+  }
+
+  #menu-toggle1 {
+    display: none;
+  }
+  
+  #menu1 {
+    display: none;
+  }
+  
+  #menu-toggle1:checked + #menu1 {
+    display: block;
+  }
+  #menu-toggle2 {
+    display: none;
+  }
+  
+  #menu2 {
+    display: none;
+  }
+  
+  #menu-toggle2:checked + #menu2 {
+    display: block;
+  }
+  #menu-toggle3 {
+    display: none;
+  }
+  
+  #menu3 {
+    display: none;
+  }
+  
+  #menu-toggle3:checked + #menu3 {
+    display: block;
+  }
+
+  .btn1 {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .btn2 {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .btn3 {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .btn4 {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .servicos {
+    background-image: url('https://wallpapers.com/images/hd/fitness-gym-with-equipment-iovhjg9dwfy87bzf.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: justify; 
+}
+
+  .servicos > * {
+    margin: 18px 0; 
+  }
+
+  .servicos > *:last-child {
+    margin-bottom: 0; 
+  }
+
+  .b1{
+    background-color: black;
+    border: none;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    color: orange;
+  }
+
+  .auth-container {
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+
+}
+
+.auth-container a {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.btn-auth {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn-auth:hover {
+    background-color: #e65c00;
+}
+  
+
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(2, 2, 2, 0.9); 
+    border-radius: 15px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    text-align: center; 
+}
+
+.form-container h2 {
+    font-size: 32px;
+    color: #ff9900; 
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px #ff6600; 
+}
+
+.form-container label {
+    color: #ccc; 
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container input[type="number"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 30px; 
+    background-color: #222;
+    color: #fff;
+    transition: all 0.3s ease; 
+    outline: none; 
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus,
+.form-container input[type="tel"]:focus,
+.form-container input[type="number"]:focus,
+.form-container input[type="password"]:focus {
+    background-color: #333; 
+    border: 1px solid #ff6600;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield; 
+}
+
+.form-container button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(45deg, #ff6600, #ff9900); 
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, background 0.3s ease; 
+    margin-left: 10px;
+}
+
+.form-container button[type="submit"]:hover {
+    transform: translateY(-5px); 
+    background: linear-gradient(45deg, #ff9900, #ff6600);
+}
+
+.form-container .error {
+    color: #ff4c4c; 
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0.9; 
+    transition: opacity 0.3s ease; 
+}
+
+
+@media (max-width: 480px) {
+    .form-container {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .form-container h2 {
+        font-size: 28px;
+    }
+
+    .form-container button[type="submit"] {
+        font-size: 16px;
+    }
+}
+
+.banner-cadastro {
+  background-image: url('/images/wp10509091.jpg');
+  background-size: cover;
+  background-position: center; 
+  width: 100%;
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.banner-login {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.login-title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+
+.error {
+  color: #ff4d4d;
+  font-size: 0.875rem;
+}
+
+.success {
+  color: #ff9900;
+  font-size: 0.875rem;
+}
+
+.banner-login {
+  background-image: url('/images/goku-2020-uv-1920x1080.jpg');
+  background-size: cover;
+  background-position: center; 
+  width: 100%;
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.login-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: rgba(2, 2, 2, 0.3);
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.login-container h2 {
+  font-size: 32px;
+  color: #ff9900;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 10px #ff6600;
+}
+
+.login-container label {
+  color: #ccc;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #222;
+  color: #fff;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.login-container input[type="email"]:focus,
+.login-container input[type="password"]:focus {
+  background-color: #333;
+  border: 1px solid #ff6600;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.login-container button[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(45deg, #ff6600, #ff9900);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: transform 0.3s ease, background 0.3s ease;
+  margin-left: 10px;
+}
+
+.login-container button[type="submit"]:hover {
+  transform: translateY(-5px);
+  background: linear-gradient(45deg, #ff9900, #ff6600);
+}
+
+.login-container .error {
+  color: #ff4c4c; /* Cor vermelha para erros */
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+@media (max-width: 480px) {
+  .login-container {
+      width: 90%;
+      margin: 20px auto;
+      padding: 20px;
+  }
+
+  .login-container h2 {
+      font-size: 28px;
+  }
+
+  .login-container button[type="submit"] {
+      font-size: 16px;
+  }
+}
